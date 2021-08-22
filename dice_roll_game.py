@@ -1,3 +1,4 @@
+# imports
 import time
 import random
 # Roll the dice and see what you get, then wait for the ai to roll a dice and see who wins
@@ -6,6 +7,7 @@ print("""
 Welcome to dice roll. You are playing against indi AI.
 """)
 time.sleep(2)
+
 
 while 1:
     Roll_dice = input("Please roll the dice (roll/exit): ") 

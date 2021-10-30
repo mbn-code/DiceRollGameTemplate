@@ -5,7 +5,7 @@ import random
 
 print("""
 Welcome to dice roll. You are playing against indi AI.
-""")
+""") # Here you can change the sleep int higher or lower for wait time before the game starts
 time.sleep(2)
 
 
@@ -31,6 +31,7 @@ while 1:
             time.sleep(1)
             print("You won!!\n\n\n")
 
+    # ask for exit or keep playing
     elif Roll_dice.lower() == "exit":
         exit()
     elif Roll_dice != "roll":

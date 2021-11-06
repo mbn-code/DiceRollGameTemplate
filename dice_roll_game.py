@@ -1,4 +1,3 @@
-# imports
 import time
 import random
 # Roll the dice and see what you get, then wait for the ai to roll a dice and see who wins
